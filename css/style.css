@@ -1,0 +1,564 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "sans-serif";
+
+}
+
+.nav-bar-section{
+    background-color: #87509c;
+    padding: 1rem;
+}
+
+.nav-bar-section .menu-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav-bar-section .menu-logo img{
+    width: 7rem;
+
+}
+.nav-bar-section .menu-logo ul li {
+    display: inline;
+}
+
+
+.nav-bar-section .menu-logo ul li a{
+    text-decoration: none;
+    padding: 1rem;
+    color: white;
+    font-size: 0.9rem;
+    font-family: sans-serif;
+    text-transform: uppercase;
+
+}
+
+.welcome-message{
+    text-align: center;
+    color: white;
+    padding-bottom: 6rem;
+}
+
+.nav-bar-section .welcome-message .message-text{
+
+
+    text-transform: capitalize;
+    padding-top: 8rem;
+    font-weight: bolder;
+    padding-bottom: 3rem;
+    font-size: 1.65rem;
+
+}
+
+.nav-bar-section .welcome-message  button{
+    background-color: #eb7d4b;
+  color: white;
+    font-size: 1rem;
+    padding: 1rem ;
+    width: 13rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+/*-------------------end of section one 1-------------------------*/
+
+.services-section{
+    background-color: #17c2a4;
+    padding-top: 6rem;
+}
+
+.services-section .services-text{
+
+    text-transform: capitalize;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+
+.services-section .p-message{
+    text-align: center;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 3.5rem;
+
+}
+
+.services-section .image-services{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.services-section .image-services img{
+    width: 6rem;
+    padding-bottom: 1.6rem;
+}
+
+.services-section .head-services{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.services-section .head-services-text{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+
+.services-section .head-paraghraphs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.services-section .head-paraghraphs p {
+    color: white;
+    text-align: center;
+padding-left: 1rem;
+    padding-right: 1rem;
+}
+/********************************third section*************************************/
+.team-section{
+
+    background-color: #e7f1f8;
+    padding-top: 3rem;
+
+}
+
+.team-section .team .description-team{
+    color: #3c4761;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+}
+/****************team section-******/
+.team-section .team p {
+    color: #878787;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 0.75rem;
+    padding-bottom: 3rem;
+
+}
+
+
+.team-section .team-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.team-section .team-image img {
+    width: 11rem;
+    padding-bottom: 2rem;
+}
+/*******name team*****/
+
+.team-section .team-name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.team-section .team-name div{
+    text-align: center;
+    color:#3c4761;
+    text-transform: capitalize;
+}
+/***********position************/
+
+.team-section .team-position {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.team-section .team-position p{
+    text-align: center;
+    color:#30bae7;
+    text-transform: capitalize;
+    font-size: 0.75rem;
+}
+/****************************************/
+
+.team-section .team-position-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/********************************************/
+
+.team-section .team-position-description p{
+    text-align: center;
+    color:#3c4761;
+    text-transform: capitalize;
+    font-size: 0.75rem;
+}
+/********************end section 3****************************/
+.skills-section{
+    background-color: white;
+    padding-top: 3rem;
+
+}
+
+.skills-section .skills-info .skills-text{
+
+    text-transform: uppercase;
+    padding-top: 2rem;
+    font-weight: bolder;
+    padding-bottom: 1rem;
+    font-size: 2.2rem;
+    text-align: center;
+    color:#3c4761;
+
+
+}
+.skills-section .skills-info  p {
+
+    text-align: center;
+    color: #3c4761;
+    font-size: 0.95rem;
+    text-transform: capitalize;
+}
+
+
+.skills-section .skills-image{
+    display: flex;
+flex-direction: row;
+justify-content: space-around;
+    padding-top: 3rem;
+}
+
+.skills-section .skills-image img {
+    width:7rem
+}
+
+
+.skills-section .skills-name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 0.5rem;
+}
+
+
+.skills-section .skills-name div{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.36rem;
+    font-weight: bolder;
+    padding-bottom: 4rem;
+
+}
+
+.portfolio-section {
+    background: #ffdd99;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    text-align: center;
+
+
+
+}
+
+
+.portfolio-section .our-protfolio .protofolio-text{
+    text-align: center;
+    color: #3c4761;
+    font-weight: bolder;
+    font-size: 2rem;
+text-transform: uppercase;
+    padding-top: 2rem;
+}
+
+
+.portfolio-section .our-protfolio p {
+    text-align: center;
+    color: #3c4761;
+    font-size: 0.92rem;
+    text-transform: capitalize;
+    padding-top:1rem;
+}
+
+.portfolio-section .our-protfolio button{
+    color: #3c4761;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0.45rem;
+    border: none;
+    border-radius: 0.20rem;
+    background-color: #ebc985;
+
+
+
+
+}
+
+
+
+.portfolio-section .center-button button {
+    background-color: #17c2a4;
+    padding:1rem 1rem 1rem 1rem;
+    border: none;
+    border-radius: 0.3rem;
+    width: 15rem;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bolder;
+    align-items: center;
+    margin-top: 3.5rem;
+
+}
+
+
+.portfolio-section  .project-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+
+.portfolio-section  .project-image img{
+    padding-top: 7.5rem;
+    width: 16rem;
+}
+
+.portfolio-section  .project-name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+
+
+.portfolio-section .project-name .project-name-text{
+    text-align: center;
+    font-size: 1rem;
+    color: #3c4761;
+}
+/************************************/
+.about-us-section {
+    background-color: #d74680;
+    color: white;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+}
+
+.about-us-section .about{
+    text-align: center;
+    color: white;
+}
+
+
+.about-us-section .about .about-header-text{
+font-weight: bolder;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+text-transform: uppercase;
+}
+.about-us-section .about p{
+    font-weight: normal;
+    font-size: 0.85rem;
+    padding-bottom: 1rem;
+    text-transform: capitalize;
+
+}
+
+.about-us-section .client .client-one {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.about-us-section .client .client-row {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.about-us-section .client .p-client {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-us-section .client img {
+    width: 4rem;
+
+}
+
+.about-us-section .client .client-one{
+    padding-bottom: 6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*******************************/
+.contact-section {
+    background-color: #3c5499;
+
+}
+
+
+.contact-section .contact-text .contact-message{
+    text-transform: uppercase;
+    padding-top: 7.5rem;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    padding-bottom: 1rem;
+    font-size: 2.5rem;
+
+}
+
+.contact-section .contact-text p {
+    text-transform: capitalize;
+       color: #8a98c2;
+    text-align: center;
+    padding-bottom: 3rem;
+    font-size: 0.8rem;
+
+}
+
+.contact-section .form{
+    text-align: center;
+    padding-bottom: 5rem;
+
+}
+
+
+
+.contact-section .form input{
+    text-align: center;
+    padding: 1rem 0 1rem 0.56rem;
+ margin-bottom: 1.38rem;
+    color: white;
+    width: 19rem;
+    background-color: #273a71;
+    border: none;
+    border-radius: 0.3rem;
+
+}
+
+.contact-section .form textarea{
+    text-align: left;
+    padding: 1.2rem 0 1rem 0.56rem ;
+      color: white;
+    width: 40rem;
+    height: 12rem;
+    background-color: #273a71;
+    border: none;
+    border-radius: 0.2rem;
+    margin-bottom: 2rem;
+}
+
+
+.contact-section .form button{
+    background-color: #30bae7;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+    width: 13rem;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    border: none;
+}
+
+.final-section{
+    background-color: #344b8e;
+    border: 1px solid #3c5499;
+    padding-bottom: 2.2rem;
+    padding-top: 2rem;
+}
+
+
+.final-section .links{
+    display: inline;
+}
+
+.final-section .links a{
+
+    text-decoration: none;
+    color: white ;
+    padding: 2rem;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 1.1rem;
+
+}
+
+.final-section .links .active{
+    color: #327fb8}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*extras*/
+
+.container{
+    width: 1000px;
+    margin: auto;
+
+}
+.active{
+
+   border: 1px solid #643a79;
+    background:#643a79;
+    border-radius: 0.5rem;
+}
+
+::placeholder{
+    color: white;
+}
+
+
+
+
